@@ -12,7 +12,18 @@ import {
 const CALENDLY_URL = "https://calendly.com/anagha-deshmukh";
 const CROWDFUNDING_URL = process.env.NEXT_PUBLIC_CROWDFUNDING_URL || "";
 
-const itinerary = [
+type ItineraryStop = {
+  date: string;
+  city: string;
+  title: string;
+  copy: string;
+  meta: string;
+  image: string;
+  note?: string;
+  fallback?: string;
+};
+
+const itinerary: ItineraryStop[] = [
   {
     date: "DEC 3",
     city: "Mumbai",
