@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06100e"/><stop offset="1" stop-color="#020403"/></linearGradient>
+  <radialGradient id="glow" cx="70%" cy="30%" r="55%"><stop stop-color="#d6a450" stop-opacity=".28"/><stop offset="1" stop-color="#d6a450" stop-opacity="0"/></radialGradient>
+  <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5b77c"/><stop offset="1" stop-color="#5f4627"/></linearGradient>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/><rect width="1600" height="1000" fill="url(#glow)"/>
+<g opacity=".18" stroke="#f0ca7e" fill="none"><circle cx="1260" cy="250" r="170"/><circle cx="1260" cy="250" r="240"/></g>
+<g transform="translate(360 190)" fill="url(#stone)" stroke="#f0ca7e" stroke-opacity=".3" stroke-width="4">
+  <rect x="120" y="170" width="640" height="520" rx="6"/>
+  <rect x="60" y="240" width="120" height="450"/><rect x="700" y="240" width="120" height="450"/>
+  <path d="M290 690V430c0-130 90-220 150-220s150 90 150 220v260H290Z" fill="#050807"/>
+  <path d="M80 240h80V120h-35V60h-10V20h-10v40H95v60H80v120Zm640 0h80V120h-35V60h-10V20h-10v40h-10v60h-15v120Z"/>
+  <rect x="190" y="120" width="500" height="90"/>
+  <path d="M190 120l55-65 55 65 55-65 55 65 55-65 55 65 55-65 55 65 55-65 55 65" fill="none" stroke="#d6a450" stroke-width="10"/>
+</g>
+<text x="100" y="855" fill="#f5eee2" font-family="Georgia,serif" font-size="76">Mumbai</text>
+<text x="100" y="915" fill="#d6a450" font-family="Arial,sans-serif" font-size="24" letter-spacing="8">ARRIVE • REST • RESET</text>
+</svg>

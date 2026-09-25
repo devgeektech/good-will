@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091613"/><stop offset="1" stop-color="#010302"/></linearGradient><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#7d6845"/><stop offset="1" stop-color="#142421"/></linearGradient></defs>
+<rect width="1600" height="1000" fill="url(#bg)"/>
+<path d="M260 140h1080c80 0 140 60 140 140v460c0 80-60 140-140 140H260c-80 0-140-60-140-140V280c0-80 60-140 140-140Z" fill="#101817" stroke="#d6a450" stroke-opacity=".35" stroke-width="8"/>
+<path d="M310 210h980c70 0 120 50 120 120v360c0 70-50 120-120 120H310c-70 0-120-50-120-120V330c0-70 50-120 120-120Z" fill="url(#sky)"/>
+<path d="M220 670c290-110 500-90 730-40 160 35 300 25 440-5v185H220V670Z" fill="#05100d" opacity=".8"/>
+<path d="M560 545l445-160 95 38-240 175-15 150-50-4-42-122-198 36-50-50 95-63Z" fill="#f5eee2" opacity=".86"/>
+<text x="100" y="925" fill="#d6a450" font-family="Arial,sans-serif" font-size="26" letter-spacing="8">RETURN • DELHI OR MUMBAI</text>
+</svg>

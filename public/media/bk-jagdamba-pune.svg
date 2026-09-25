@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07110f"/><stop offset="1" stop-color="#020403"/></linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a73a28"/><stop offset="1" stop-color="#511b16"/></linearGradient>
+  <radialGradient id="sun" cx="50%" cy="20%" r="40%"><stop stop-color="#f0ca7e" stop-opacity=".5"/><stop offset="1" stop-color="#f0ca7e" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/><rect width="1600" height="1000" fill="url(#sun)"/>
+<g transform="translate(250 215)">
+  <path d="M160 520V250Q550 90 940 250v270H160Z" fill="#eee9df" opacity=".92"/>
+  <path d="M435 520V110h230v410H435Z" fill="url(#red)"/>
+  <g fill="#15201e" opacity=".7"><rect x="230" y="270" width="180" height="150"/><rect x="690" y="270" width="180" height="150"/></g>
+  <text x="550" y="185" text-anchor="middle" fill="#f5eee2" font-family="Arial,sans-serif" font-size="48" font-weight="700" letter-spacing="5">JAGDAMBA BHAWAN</text>
+  <g transform="translate(550 10)" stroke="#f0ca7e" stroke-width="12">
+    <circle r="18" fill="#f0ca7e"/>
+    <g>
+      <line y1="-30" y2="-90"/><line y1="30" y2="90"/><line x1="-30" x2="-90"/><line x1="30" x2="90"/>
+      <line x1="22" y1="-22" x2="65" y2="-65"/><line x1="-22" y1="22" x2="-65" y2="65"/><line x1="-22" y1="-22" x2="-65" y2="-65"/><line x1="22" y1="22" x2="65" y2="65"/>
+    </g>
+  </g>
+</g>
+<text x="100" y="850" fill="#f5eee2" font-family="Georgia,serif" font-size="74">Brahma Kumaris</text>
+<text x="100" y="908" fill="#d6a450" font-family="Arial,sans-serif" font-size="24" letter-spacing="6">JAGDAMBA BHAWAN • PISOLI, PUNE</text>
+</svg>
